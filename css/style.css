@@ -100,7 +100,7 @@ button:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10px;
+    padding: 30px 20px;
 }
 
 .nav__links {
@@ -111,6 +111,7 @@ button:focus {
 
 .nav__link {
     margin: 0 5px;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Header Styles */
@@ -142,7 +143,14 @@ button:focus {
 }
 
 .header__description--cta-btn {
-    margin-top: 15px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(71, 71, 255)
+
 }
 
 /* Main Styles */
@@ -266,3 +274,33 @@ button:focus {
 .feature__quaternary--description p {
     margin-top: 10px;
 }
+
+/* Value Services */
+.valueService {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+
+}
+
+.valueService__img--container {
+    margin: auto;
+    width: 90%;
+}
+
+.valueSerivce__description {
+}
+
+.valueSerivce__description h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.valueSerivce__description p {
+    margin-top: 20px;
+    text-align: left;
+    padding: 0 10px;
+}
+
+
